@@ -1,0 +1,71 @@
+.top {
+    background-color: black;
+    margin: 10px 100px;
+    padding: 20px;
+}
+.toptitle {
+    color: white;
+    font-size: 24px;
+    font-family: Arial;
+    text-align: center;
+}
+.topdesc {
+    color: white;
+    font-size: 12px;
+    font-family: Arial;
+    text-align: center;
+}
+.toplinks {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    gap: 5px;
+    font-size: 12px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.mid {
+    margin: 10px 100px;
+    padding: 20px;
+}
+.midtitle {
+    font-size: 24px;
+    font-family: Arial;
+    text-align: center;
+}
+.middesc {
+    font-size: 12px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.bot {
+    margin: 10px 100px;
+    padding: 20px;
+}
+.bottitle {
+    font-size: 24px;
+    font-family: Arial;
+    text-align: center;
+}
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.project1, .project2, .project3 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid black;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
